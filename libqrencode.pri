@@ -1,23 +1,21 @@
-DEPENDPATH += .
-INCLUDEPATH += .
+HEADERS += $$PWD/bitstream.h \
+           $$PWD/mask.h \
+           $$PWD/mmask.h \
+           $$PWD/mqrspec.h \
+           $$PWD/qrencode.h \
+           $$PWD/qrencode_inner.h \
+           $$PWD/qrinput.h \
+           $$PWD/qrspec.h \
+           $$PWD/rsecc.h \
+           $$PWD/split.h
 
-HEADERS += bitstream.h \
-           mask.h \
-           mmask.h \
-           mqrspec.h \
-           qrencode.h \
-           qrencode_inner.h \
-           qrinput.h \
-           qrspec.h \
-           rsecc.h \
-           split.h
-SOURCES += bitstream.c \
-           mask.c \
-           mmask.c \
-           mqrspec.c \
-           qrenc.c \
-           qrencode.c \
-           qrinput.c \
-           qrspec.c \
-           rsecc.c \
-           split.c
+SOURCES += $$PWD/bitstream.c \
+           $$PWD/mask.c \
+           $$PWD/mmask.c \
+           $$PWD/mqrspec.c \
+           $$PWD/qrenc.c \
+           $$PWD/qrencode.c \
+           $$PWD/qrinput.c \
+           $$PWD/qrspec.c \
+           $$PWD/rsecc.c \
+           $$PWD/split.c
