@@ -1,3 +1,9 @@
+DEFINES += MAJOR_VERSION=4
+DEFINES += MINOR_VERSION=1
+DEFINES += MICRO_VERSION=1
+# DEFINES += VERSION=\\\"4.1.1\\\"
+DEFINES += STATIC_IN_RELEASE=
+
 HEADERS += $$PWD/bitstream.h \
            $$PWD/mask.h \
            $$PWD/mmask.h \
