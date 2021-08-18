@@ -1,7 +1,7 @@
 DEFINES += MAJOR_VERSION=4
 DEFINES += MINOR_VERSION=1
 DEFINES += MICRO_VERSION=1
-# DEFINES += VERSION=\\\"4.1.1\\\"
+DEFINES += VERSION=\\\"4.1.1\\\"
 DEFINES += STATIC_IN_RELEASE=
 
 HEADERS += $$PWD/bitstream.h \
@@ -19,7 +19,7 @@ SOURCES += $$PWD/bitstream.c \
            $$PWD/mask.c \
            $$PWD/mmask.c \
            $$PWD/mqrspec.c \
-           $$PWD/qrenc.c \
+#           $$PWD/qrenc.c \
            $$PWD/qrencode.c \
            $$PWD/qrinput.c \
            $$PWD/qrspec.c \
