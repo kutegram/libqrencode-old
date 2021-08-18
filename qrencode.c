@@ -916,23 +916,23 @@ QRcode_List *QRcode_encodeStringStructured(const char *string, int version, QRec
 
 void QRcode_APIVersion(int *major_version, int *minor_version, int *micro_version)
 {
-	if(major_version != NULL) {
-		*major_version = MAJOR_VERSION;
-	}
-	if(minor_version != NULL) {
-		*minor_version = MINOR_VERSION;
-	}
-	if(micro_version != NULL) {
-		*micro_version = MICRO_VERSION;
-	}
+    if(major_version != NULL) {
+        *major_version = 4; //MAJOR_VERSION;
+    }
+    if(minor_version != NULL) {
+        *minor_version = 1; //MINOR_VERSION;
+    }
+    if(micro_version != NULL) {
+        *micro_version = 1; //MICRO_VERSION;
+    }
 }
 
 char *QRcode_APIVersionString(void)
 {
-	return VERSION;
+    return "4.1.1"; //VERSION;
 }
 
 void QRcode_clearCache(void)
 {
-	return;
+    return;
 }
