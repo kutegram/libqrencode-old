@@ -25,3 +25,5 @@ SOURCES += $$PWD/bitstream.c \
            $$PWD/qrspec.c \
            $$PWD/rsecc.c \
            $$PWD/split.c
+
+INCLUDEPATH += $$PWD
